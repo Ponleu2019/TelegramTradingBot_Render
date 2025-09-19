@@ -1,5 +1,7 @@
-python-telegram-bot==20.6
 yfinance==0.2.44
 pandas
 numpy
 aiohttp
+python-telegram-bot==20.7
+requests==2.31.0
+
