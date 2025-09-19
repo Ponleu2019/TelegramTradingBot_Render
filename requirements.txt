@@ -1,0 +1,5 @@
+python-telegram-bot==20.6
+yfinance==0.2.44
+pandas
+numpy
+aiohttp

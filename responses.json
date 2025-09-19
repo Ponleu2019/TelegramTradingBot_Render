@@ -1,0 +1,14 @@
+{
+    "hello": "👋 Welcome to our Trading Group! Type 'help' for commands.",
+    "hi": "👋 Hello trader! Type 'help' to see commands.",
+    "help": "📌 Commands:\n- /price: Check live prices\n- signals: Trading signals info\n- rules: Group rules\n- admin: Contact admin\n- /reload: Reload bot messages",
+    "rules": "🚨 Rules:\n1. No spam/scams\n2. Respect all members\n3. Trading discussion only",
+    "signals": "📢 Signals are educational only. Recommended pairs: XAUUSD (Gold), EURUSD, BTC/USDT, ETH/USDT.",
+    "price": "💹 Check live prices on Binance app or TradingView 📊",
+    "scam": "⚠️ Never trust private messages offering investments. Admins will NEVER ask for your funds!",
+    "admin": "👮 Contact admin: @ponleuchea",
+    "_welcome": "👋 Welcome {name} to our Trading Group!\n🚨 Rules: No spam, no scams, respect each other.\n📌 Type 'help' to see available commands.",
+    "_reload_success": "🔄 Responses reloaded successfully! All messages are up to date."
+}
+
+
