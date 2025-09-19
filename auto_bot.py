@@ -239,10 +239,11 @@ def main():
     app.add_handler(CommandHandler("price", handle_price_request))
     app.add_handler(CommandHandler("reload", reload_responses))
 
-    async def on_startup(_):
-        asyncio.create_task(schedule_updates(app))
+async def on_startup(app: Application):
+    asyncio.create_task(schedule_updates(app))
 
-    app.post_init = on_startup
+app.post_init = [on_startup]   # note: list of callbacks
+
 
     print("🤖 Bot is running... Press Ctrl+C to stop.")
     app.run_polling(allowed_updates=Update.ALL_TYPES)
@@ -250,3 +251,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
